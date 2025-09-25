@@ -1,0 +1,84 @@
+/* Reset default */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #f4f4f4;
+  color: #333;
+}
+/* Header */
+header {
+  background: #b30000;
+  color: #fff;
+  padding: 20px;
+}
+header h1 {
+  margin-bottom: 10px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+/* Konten Utama */
+main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+.berita-utama img {
+  width: 100%;
+  border-radius: 5px;
+}
+.berita-utama article {
+  margin-bottom: 30px;
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.berita-utama a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #b30000;
+  font-weight: bold;
+}
+/* Berita Lainnya */
+.grid-berita {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.grid-berita article {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.grid-berita img {
+  width: 100%;
+  border-radius: 5px;
+}
+.grid-berita h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+/* Footer */
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+}
